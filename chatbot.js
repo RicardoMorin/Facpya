@@ -36,7 +36,7 @@ function responder(pregunta) {
   const q = pregunta.toLowerCase();
 
   // Familias de palabras clave
-  const contaduriaKeys = ["contaduria", "contaduría", "contador", "contadores", "contabilidad", "contable"];
+  const contaduriaKeys = ["contaduria", "contaduría", "contador", "contadores", "contabilidad", "contable", "Contador"];
   const adminKeys = ["administracion", "administración", "administrador", "administradores", "gestion"];
   const latiKeys = ["lati", "tecnologia", "tecnologías", "informacion", "informática", "sistemas", "ti"];
   const negociosKeys = ["negocios", "internacional", "comercio", "aduanas", "logistica"];
