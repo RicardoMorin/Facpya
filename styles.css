@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cintilla */
+.cintilla {
+  border-bottom: 1px solid #ccc;
+}
+
+.cintilla-top {
+  background: #f5f3ef;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+
+.cintilla-top .social a {
+  color: #800000;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* Cintilla inferior adaptada al estilo de la facultad */
+.cintilla-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Logo + nombre */
+.cintilla-bottom .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cintilla-bottom .logo img {
+  height: 70px; /* ajustado igual que en la cintilla superior */
+}
+
+.cintilla-bottom .logo .nombre {
+  font-size: 18px;
+  font-weight: normal;
+  color: #222;
+  line-height: 1.2;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+/* Buscador + links */
+.cintilla-bottom .buscador {
+  text-align: right;
+}
+
+.cintilla-bottom .buscador input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+
+.cintilla-bottom .buscador button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+}
+
+.cintilla-bottom .buscador .links {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.cintilla-bottom .buscador .links a {
+  text-decoration: none;
+  color: #333; /* igual que en la web original */
+  margin: 0 5px;
+  font-family: Arial, sans-serif;
+}
+
+.cintilla-bottom .buscador .links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Barra roja */
+.barra-roja {
+  background: #800000;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.barra-roja a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: normal;
+}
+
+.barra-roja a:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
+
+
+/* Franja azul lateral */
+.franja-azul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background: #003366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: normal;
+  font-size: 14px;
+  z-index: 1000; /* siempre encima */
+}
+.franja-azul a {
+  color: #FFD700;        /* amarillo */
+  text-decoration: none; /* quita subrayado */
+}
+
+.franja-azul a:hover {
+  color: #8b7705;        /* opcional: mismo color al pasar el mouse */
+}
+
+
+/* Que el contenido no se meta debajo */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 40px; /* espacio igual al ancho de la franja */
+}
+
+
+
+/* CHAT */
+
+/* === Estilos generales === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+}
+
+/* === Contenedor principal del chat === */
+#chat {
+  width: 420px;
+  margin: 50px auto;
+  background: #fff;
+  border: 2px solid #800000;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+/* === Caja de mensajes === */
+#chat-box {
+  height: 320px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #fafafa;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Scrollbar personalizado */
+#chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+#chat-box::-webkit-scrollbar-thumb {
+  background: #800000;
+  border-radius: 5px;
+}
+#chat-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* === Mensajes === */
+#chat-box p {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: 85%;
+}
+
+/* Mensaje del usuario */
+#chat-box p:nth-child(odd) {
+  background: #800000;
+  color: #fff;
+  margin-left: auto;
+  text-align: right;
+}
+
+/* Mensaje del bot */
+#chat-box p:nth-child(even) {
+  background: #eee;
+  color: #222;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* === Input y botón === */
+#user-input {
+  width: 72%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  width: 24%;
+  padding: 9px;
+  margin-left: 4px;
+  background: #800000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #a00000;
+}
+
+/* === Responsive === */
+@media (max-width: 480px) {
+  #chat {
+    width: 95%;
+  }
+  #user-input {
+    width: 65%;
+  }
+  button {
+    width: 30%;
+  }
+}

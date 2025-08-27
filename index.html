@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cintilla FACPYA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cintilla superior -->
+  <div class="cintilla">
+    <div class="cintilla-top">
+      <span>UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN</span>
+      <div class="social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="cintilla-bottom">
+      <div class="logo">
+        <img src="logo-facpya-1.png" alt="Logo UANL">
+        <span>FACULTAD DE CONTADURÍA PÚBLICA <br> Y ADMINISTRACIÓN</span>
+      </div>
+
+      <div class="buscador">
+        <input type="text" placeholder="Buscar">
+        <button><i class="fa fa-search"></i></button>
+        <div class="links">
+          <a href="#">ALUMNOS</a> |
+          <a href="#">ASPIRANTES</a> |
+          <a href="#">DOCENTES</a> |
+          <a href="#">EGRESADOS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra roja de navegación -->
+  <nav class="barra-roja">
+    <a href="#">Inicio</a>
+    <a href="#">Acerca de la Facultad</a>
+    <a href="#">Oferta Educativa</a>
+    <a href="#">Vida Estudiantil</a>
+    <a href="#">Investigación</a>
+    <a href="#">Servicios</a>
+    <a href="#">Difusión</a>
+  </nav>
+
+  <!-- Franja azul lateral izquierda -->
+  <div class="franja-azul">
+    <a href="https://www.uanl.mx/" target="_blank">UANL.MX ↑</a>
+  </div>
+
+  <!-- Contenido -->
+  <main>
+    <section>
+     <div id="chat">
+     <div id="chat-box"></div>
+     <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+     <button onclick="enviar()">Enviar</button>
+     </div>
+
+     <script src="chatbot.js"></script>
+
+    </section>
+   </main>
+
+  <!-- Librería de iconos -->
+  <script src="https://kit.fontawesome.com/4f8e5f3a6d.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
