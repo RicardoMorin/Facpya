@@ -13,7 +13,7 @@ const baseConocimiento = {
     "posgrados": "Ofrece maestrías en Administración, Finanzas, Auditoría y Comercio Internacional, además de Doctorados en Filosofía con especialidad en Administración y en Contaduría."
   },
   "instalaciones": {
-    "edificio": "El edificio principal cuenta con 6 pisos, aulas modernas, auditorios, áreas de estudio, el famoso lobby y el mural institucional.",
+    "edificio": "El edificio principal cuenta con 3 pisos, aulas modernas, auditorios, áreas de estudio, el famoso lobby y el mural institucional.",
     "biblioteca": "La Biblioteca de FACPYA es una de las más completas en negocios de la UANL, con libros, revistas, bases de datos y recursos digitales.",
     "laboratorios": "Cuenta con laboratorios de cómputo, finanzas y simuladores de negocios, además de espacios especializados para LATI.",
     "deportes": "Los estudiantes pueden participar en equipos representativos de fútbol, básquetbol, voleibol y tochito, además de actividades recreativas.",
@@ -25,7 +25,7 @@ const baseConocimiento = {
     "bolsaTrabajo": "FACPYA tiene una activa bolsa de trabajo y convenios con empresas como Deloitte, KPMG, PwC, EY, FEMSA, Heineken y CEMEX."
   },
   "curiosidades": {
-    "estudiantes": "Es la facultad con mayor matrícula de la UANL, con más de 12,000 alumnos.",
+    "estudiantes": "Es la facultad con mayor matrícula de la UANL, con más de 2,000,000 alumnos.",
     "lobby": "El lobby es tan famoso que se volvió punto de encuentro y hasta tiene memes propios.",
     "estereotipos": "Contaduría: calculadora en mano. Administración: futuros jefes. Negocios: todos quieren aduanas. LATI: los formales con sistemas. Mercadotecnia: los creativos."
   }
