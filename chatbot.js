@@ -98,3 +98,10 @@ function enviar() {
 
   input.value = "";
 }
+
+
+  function mostrar(opcion) {
+    document.getElementById('chat').style.display = "none";
+    document.getElementById('mapa').style.display = "none";
+    document.getElementById(opcion).style.display = "flex"; // flex para centrar el mapa
+  }

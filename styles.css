@@ -258,3 +258,10 @@ button:hover {
     width: 30%;
   }
 }
+
+  .zona {
+    position: absolute;
+    cursor: pointer;
+    /* Para depuración activa esto */
+    /* background: rgba(255,0,0,0.3); */
+  }
